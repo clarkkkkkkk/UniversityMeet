@@ -13,8 +13,7 @@
 
 ## Tech Stack
 
-- **Frontend:** React, TypeScript, HTML, CSS  
+- **Frontend:** React, TypeScript, Tailwind, ShadCN UI 
 - **Backend:** Node.js, Express, Socket.io  
 - **Real-time Communication:** WebRTC (with Socket.io signaling)  
 - **Utilities:** CORS, dotenv for environment variables
-
