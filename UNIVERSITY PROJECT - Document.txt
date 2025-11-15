@@ -1,5 +1,10 @@
 UNIVERSITY PROJECT
 
+Connection_Client&Server:
+
+Client: localhost: 5173
+Server: PORT: 4000
+
 Day 1: 
 
 How to plan coding projects
