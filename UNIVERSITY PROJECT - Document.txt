@@ -1,0 +1,183 @@
+UNIVERSITY PROJECT
+
+Day 1: 
+
+How to plan coding projects
+
+- Sketch the draw of website look
+- Stacks want to use - Front/Back/Database
+- Understand the file structure
+
+I do: 
+- Create Repo on GitHub
+- Setting up environment 
+- Analyzing / Implementing Tech Stacks
+
+
+Tech Stacks 
+
+Front-End:
+React.JS
+Back-End:
+Node.JS
+
+
+Day 2:
+
+Guide from AI, Project Description:
+
+UniConnect – Real-Time Classroom & Meeting Platform
+Project Description
+
+Guide me like an experienced developer, providing advice, best practices, architecture decisions, and technical solutions to successfully complete this project.
+
+UniConnect is a real-time classroom and virtual meeting platform inspired by Google Meet and Google Classroom. It is built using React + TypeScript (Vite) on the client side and Node.js, Express, and Socket.io on the server side. The platform enables users to join dynamic rooms, stream video/audio, and communicate in real time using WebRTC peer connections with Socket.io-based signaling.
+
+UniConnect is designed for online classes, meetings, and collaborative environments where multiple participants interact in shared virtual spaces.
+
+Key Features
+1. Real-Time Communication
+
+WebRTC-based video & audio streaming
+Automatic peer-to-peer connection setup
+Real-time signaling via Socket.io
+Auto-detection of peer join/leave
+Smooth media streaming optimized for low latency
+
+2. Room Management
+
+Create or join rooms with custom Room IDs
+Track active participants inside each room
+Notify all users when a new participant enters
+Automatically remove users when they disconnect
+Simple & intuitive interface for room selection
+
+3. Local Media Handling
+
+Automatic camera and microphone access
+Live preview of your own stream
+Muted autoplay support
+Device permission checks
+Responsive video container
+
+4. User Interface
+
+Clean and minimal UI for meetings
+Input field for entering room codes
+Responsive layout suitable for desktop and mobile
+Lightweight design using custom CSS
+Clear visual feedback when joining rooms
+
+Future Features
+
+All upcoming features planned for UniConnect are listed below:
+
+- WebRTC Enhancements
+Multi-peer video grid layout
+Screen sharing (browser-native)
+Noise suppression & audio filters
+Automatic bandwidth adaptation
+
+- Messaging & Collaboration
+Real-time text chat
+Emojis & reactions
+File sharing
+Whiteboard collaboration mode
+Classroom-style “Raise Hand” feature
+
+- Authentication & User Roles
+Student/Teacher role system
+Join via invite link
+Login using email/password
+Google OAuth sign-in
+
+- Meeting Controls
+Mute/unmute microphone
+Turn camera on/off
+Host controls to manage participants
+Lobby (waiting room)
+Recording of sessions
+
+- UI/UX Improvements
+Dark/light theme
+Animated transitions
+Toast notifications
+Fully mobile-friendly meeting page
+
+- System Integrations
+Calendar scheduling
+Class management like Google Classroom
+Notifications & reminders
+Database for storing meeting history
+
+Project Structure
+
+A complete full‑stack structure, including both client and server.
+
+UniversityMeet/
+├── client/                      # React + TypeScript (Vite)
+│   ├── src/
+│   │   ├── components/          # (future components)
+│   │   ├── hooks/               # (for media, signaling)
+│   │   ├── pages/
+│   │   │   ├── MeetingPage.tsx                # (for meeting)
+│   │   │   ├── HomePage.tsx                # (for about the university and abouts)
+│   │   │   ├── Classroom.tsx                # (for activity task, schedules, announcements)
+│   │   ├── context/             # (future auth, theme context)
+│   │   ├── utils/               # helper functions
+│   │   ├── App.tsx              # main component
+│   │   ├── main.tsx             # Vite entry point
+│   ├── index.html
+│   └── package.json
+│
+├── server/                      # Node.js Backend
+│   ├── server.js                # Express + Socket.io signaling
+│   ├── package.json
+│   └── .env
+│
+└── README.md
+
+Packages Used
+Core Dependencies
+
+Client
+
+React
+TypeScript
+Vite (build tool)
+Socket.io-client
+WebRTC (browser-native)
+
+Server
+
+Express
+Socket.io
+CORS
+dotenv
+
+UI & Styling
+
+Custom CSS
+Tailwind (optional future integration)
+Responsive video elements
+
+Real-Time Technologies
+
+WebRTC Used for:
+
+Video streams
+Audio streams
+Peer-to-peer connection
+
+Socket.io Used for signaling:
+
+join-room
+new-peer
+signal
+peer-left
+
+Brand Colors (Suggested)
+#1a1a1a   (primary dark)
+#0066ff   (primary blue)
+#ffffff   (white)
+#e5e5e5   (light gray)
